@@ -105,6 +105,7 @@
 						loader.load(model + ".glb", function(glb) {
 
 							current_object = glb.scene;
+							current_object.scale.set(0.2,0.2,0.2)
 							scene.add(current_object);
 
 							arPlace();
